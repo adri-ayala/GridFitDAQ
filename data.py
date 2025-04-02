@@ -5,10 +5,11 @@ from datetime import datetime, timezone
 import uuid
 
 # Configuration
+# 115200
 SERIAL_PORT = 'COM3'         
-BAUD_RATE = 9600
+BAUD_RATE = 115200
 RESISTOR_OHMS = 0.10
-SAMPLE_INTERVAL = 1  # seconds
+SAMPLE_INTERVAL = 5  # seconds
 
 # MongoDB Setup
 client = MongoClient('mongodb+srv://adri-ayala:Pickles254@gridfit.szhbvt2.mongodb.net/?retryWrites=true&w=majority&appName=GridFit')
